@@ -1,0 +1,120 @@
+<!--js.chart-->
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+
+}
+</style>
+</head>
+<body>
+
+<div class="center">
+  <h3>Hover To See Values</h3>
+
+</div>
+
+</body>
+</html>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+
+    <title>Document</title>
+
+
+    <div style="">
+        <
+    <canvas id="myChart2"></canvas>
+    </div>
+    <div style="">
+    <canvas id="myChart" ></canvas>
+    </div>
+
+
+
+
+
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+var xValues = ["Aspark Owl", "Audi E6 e-tron", "Audi Q4 e-tron"];
+var yValues = [280, 400, 250];
+var barColors = ["red", "green","blue","orange","brown"];
+
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Mileage Per Charge"
+    }
+  }
+});
+
+</script>
+
+</body>
+</html>
+
+    <html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+
+<canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+
+<script>
+var xValues = ["Aspark Owl", "Audi E6 e-tron", "Audi Q4 e-tron"];
+var yValues = [2012, 469, 210, 24, 15];
+var barColors = ["red", "green","blue","orange","brown"];
+
+new Chart("myChart2", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Horsepower Per Vehicle"
+    }
+  }
+});
+
+</script>
+
+</body>
+</html>
+
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+
+</body>
+</html>
